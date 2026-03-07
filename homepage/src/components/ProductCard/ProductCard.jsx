@@ -27,7 +27,7 @@ const ProductCard = () => {
 
     return (
         <div>
-            <div className="heading">Our Products</div> 
+            <div className="heading-product">Our Products</div> 
             <div className="product-card">
                 {products.map((product, index) => (
                     <div className="card" key={index} onFocus={() => setActiveCard(true)} onBlur={() => setActiveCard(false)}>

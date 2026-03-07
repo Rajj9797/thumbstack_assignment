@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/navbar';
 import Hero from './components/HeroSection/hero';
 import LinkSection from './components/linkSection/linkSection';
 import ProductCard from './components/ProductCard/ProductCard';
+import AboutUs from './components/Aboutus/AboutUs';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <LinkSection />
       <ProductCard />
+      <AboutUs />
     </div>
   );
 }
