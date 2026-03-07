@@ -15,8 +15,8 @@ const Subscribe = () => {
                     <p className="subscribe-para">If you want to follow our progress on developing what Europeans want and need, done by Europeans.</p>
                 </div>
 
-                <div className="input-div">
-                    <input type="email" placeholder="Enter your email" className="email-input"/>
+                <div className="input-div-subscribe">
+                    <input type="email" placeholder="Enter your email" className="email-input-subscribe"/>
                     <button className="subscribe-button">Subscribe to our newsletter</button>
                 </div>
             </div>

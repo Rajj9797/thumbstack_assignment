@@ -93,7 +93,7 @@
     text-align: left;
 }
 
-.input-div {
+.input-div-subscribe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +105,7 @@
     border-width: 1px;
 }
 
-.email-input {
+.email-input-subscribe {
     display: flex;
     justify-content: center;
     align-items: center;
