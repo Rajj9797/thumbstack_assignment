@@ -1,0 +1,152 @@
+.card-roadmap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.card-inner-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    width: 90%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.card-inner-div:hover {
+    background: #f1ff66;
+    border: 1px solid #f1ff66;
+    cursor: pointer;
+}
+
+.card-level {
+    font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -3%;
+    color: #242424;
+    text-align: left;
+    align-items: left;
+    width: 20%;
+}
+
+.card-title {
+    font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: -3%;
+    color: #242424;
+    text-align: left;
+    width: 20%;
+}
+
+.card-description {
+    font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #242424;
+    text-align: left;
+    align-items: left;
+    width: 50%;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    gap: 10px;
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -3%;
+    color: #242424;
+    text-align: center; 
+}
+
+.card-button:hover {
+    background: #242424;
+    border: 1px solid #f1ff66;
+    color: #f1ff66;
+    cursor: pointer;
+}
+
+.coming-soon-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    gap: 10px;
+    width: 100px;
+    height: 40px;
+    font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -3%;
+    color: #24242426;
+    text-align: center;
+}
+
+.roadmap-head {
+    font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 86px;
+    line-height: 110%;
+    letter-spacing: 0%;
+    color: #242424;
+    text-align: center;
+}
+
+.arrow-left {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #242424; /* This creates the left-pointing arrow */
+}
+
+.border-div-roadmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 1px;
+    background-color: #242424a7;
+}   
+
+.card-div-roadmap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
