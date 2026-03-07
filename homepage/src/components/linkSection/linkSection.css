@@ -1,0 +1,130 @@
+.link-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 2rem; 
+    width: 100%;
+    height: 100%;
+}
+
+.link-section-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.link-title {
+    font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 36px;    
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #242424;
+}
+
+.input-div {
+    width: 399px;
+    height: 57px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.email-input {
+    width: 100%;
+    height: 90%;
+    border: 1px solid #ccc;
+    background-color: #3232323e;
+    font-size: 16px;
+    border-radius: 10px 0 0 10px;
+}
+
+.join-button {
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 600;
+    color: black;
+    font-style: semi-bold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    align-items: center;
+
+    height: 100%;
+    width: 20%;
+}
+
+.border-div {
+    margin: 2rem 0;
+    border: 0.5px solid #242424;
+    width: 100%;
+}
+
+.brief {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    margin: 4rem 0;
+}
+
+.brief-title {
+    font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 86px;    
+    line-height: 110%;
+    letter-spacing: 0%;
+    color: #242424;
+    width: 80%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .link-section-content {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 0;
+    }
+
+    .link-title {
+        font-size: 24px;
+    }
+
+    .input-div {
+        width: 100%;
+        height: auto;
+    }
+
+    .email-input {
+        width: 100%;
+        height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .join-button {
+        width: 20%;
+        height: 40px;
+    }
+
+    .brief-title {
+        font-size: 48px;
+        align-items: left;
+        text-align: left;
+    }
+    
+}
