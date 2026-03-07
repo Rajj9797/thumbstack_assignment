@@ -19,7 +19,7 @@
     gap: 0.5rem;
     width: 100%;
     background: #FFFFFF;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .card {
@@ -92,8 +92,8 @@
 }
 
 .read-more:hover {
-    background-color: #242424;
-    color: #fff;
+    background-color: #fff;
+    color: #242424;
     cursor: pointer;
 }   
 
