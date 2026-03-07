@@ -1,0 +1,55 @@
+.subscribe-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    gap: 2rem;
+    width: 100%;
+    height: fit-content;
+}
+
+.supporter-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: fit-content;
+    background-color: #ebeae6;
+    padding: 2rem;
+
+}
+
+.supporter-head {
+    font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #242424;
+    text-align: center;
+}
+
+.subscribe-arrow-div {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #242424; 
+}
+
+.supporter-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+    background: #ebeae6;
+    border-radius: 8px;
+}

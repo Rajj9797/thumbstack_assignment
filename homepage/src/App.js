@@ -5,6 +5,7 @@ import LinkSection from './components/linkSection/linkSection';
 import ProductCard from './components/ProductCard/ProductCard';
 import AboutUs from './components/Aboutus/AboutUs';
 import RoadMap from './components/RoadMap/RoadMap';
+import Subscribe from './components/Subscribe/Subscribe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ProductCard />
       <AboutUs />
       <RoadMap />
+      <Subscribe />
     </div>
   );
 }

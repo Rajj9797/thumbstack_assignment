@@ -128,7 +128,7 @@
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 10px solid #242424; /* This creates the left-pointing arrow */
+    border-left: 10px solid #242424; 
 }
 
 .border-div-roadmap {
@@ -150,3 +150,73 @@
     height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+    .card-roadmap {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        background: #FFFFFF;
+        border-radius: 8px;
+    }
+
+    .card-inner-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
+        width: 90%;
+        height: 100%;
+        border-radius: 40px;
+    }
+
+    .card-inner-div:hover {
+        background: #f1ff66;
+        border: 1px solid #f1ff66;
+        cursor: pointer;
+    }
+
+    .card-level {
+        font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 110%;
+        letter-spacing: -3%;
+        color: #242424;
+        text-align: left;
+        align-items: left;
+        width: 20%;
+    }
+
+    .card-title {
+        font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        line-height: 110%;
+        letter-spacing: -3%;
+        color: #242424;
+        text-align: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .card-description {
+        font-family: "Radio Canada Big", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        color: #242424;
+        text-align: center;
+        align-items: left;
+        width: 50%; 
+    
+    }  
+}
