@@ -149,6 +149,12 @@
     height: 100%;
 }
 
+.roadmap-button-div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}   
+
 @media screen and (max-width: 768px) {
     .card-roadmap {
         display: flex;

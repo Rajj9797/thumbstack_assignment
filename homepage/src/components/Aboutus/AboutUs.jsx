@@ -11,7 +11,7 @@ const AboutUs = () => {
                     <div className="text-div">
                         <p className="heading">By Europeans, for Europeans</p>
                         <p className="subheading">Our Vision is to empower government, organizations and individuals with control and independence in the online realm.</p>
-                        <button className="read-button">Read more about us</button>
+                        <button className="read-button">Read more about us &rarr;</button>
                     </div>
                 </div>
                 

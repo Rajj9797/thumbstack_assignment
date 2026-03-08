@@ -34,7 +34,7 @@ const ProductCard = () => {
                         <div className="firstline">{product.firstline}</div>
                         <div className="name">{product.name}</div>
                         <div className="description">{product.description}</div>
-                        <button className="read-more">Read more</button>
+                        <button className="read-more">Read more &rarr;</button>
                         {activeCard && <button className="demo-button">Book a demo</button>}
                     </div>
                 ))}

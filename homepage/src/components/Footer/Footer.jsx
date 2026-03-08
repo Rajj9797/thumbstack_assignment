@@ -1,11 +1,13 @@
 import React from "react";
 import "./Footer.css";
+import socialIcons from "../../Assets/social-media-icons.png";
+import europeanMap from "../../Assets/EuropeanMap.png";
 
 const Footer = () => {
     return (
         <div className="footer-div">
             <div className="links-div">
-                <p>APURA CLOUD</p>
+                <p className="footer-text-title">APURA CLOUD</p>
                 <div className="features-link">
                     <div className="product-link">
                         <p className="feature-title">Products</p>
@@ -35,14 +37,14 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="socialmedia-div">
-                    <img src="../../Assets/social-media-icons.png" alt="social media icons" />
-                    <p>&rarr; &copy; 2025 Apura Cloud. All rights reserved.</p>
+                    <img src={socialIcons} alt="social media icons" />
+                    <p className="rights-text">&copy; 2025 Apura Cloud. All rights reserved.</p>
                 </div>
             </div>
 
 
             <div className="footer-img-div">
-                <img src="../../Assets/EuropeanMap.png" alt="footer map" />
+                <img src={europeanMap} alt="footer map" />
             </div>
         </div>
     )

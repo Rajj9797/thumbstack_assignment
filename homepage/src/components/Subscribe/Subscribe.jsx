@@ -6,7 +6,7 @@ const Subscribe = () => {
         <div className="subscribe-main-div">
             <div className="supporter-div">
                 <p className="supporter-head">Become a supporter and help us on our Journey</p>
-                <button className="supporter-button">Read more about how to <span className="subscribe-arrow-div"></span></button>
+                <button className="supporter-button">Read more about how to &rarr;</button>
             </div>
 
             <div className="subscribe-div">

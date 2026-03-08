@@ -47,10 +47,9 @@ const RoadMap = () => {
                                     <h3 className="card-title">{item.title}</h3>
                                     <p className="card-description">{item.description}</p>
                                     {item.button && (
-                                        <div>
+                                        <div className="roadmap-button-div">
                                             <button className="card-button">{item.button}</button>
-                                            <div className="arrow-left"></div>
-
+                                            <div>&rarr;</div>
                                         </div>
 
                                     )}
