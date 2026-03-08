@@ -24,9 +24,9 @@ const Navbar = () => {
                         <option value='Road map' disabled selected>Road map</option>
                     </select>
                 </li>
-                <li className='list-items'><a href='#'>Our mission</a></li>
-                <li className='list-items'><a href='#'>For days</a></li>
-                <li className='list-items'><a href='#'>Contact us</a></li>
+                <li className='list-items'><a href='#our-mission'>Our mission</a></li>
+                <li className='list-items'><a href='#for-days'>For days</a></li>
+                <li className='list-items'><a href='#contact-us'>Contact us</a></li>
             </ul>
         </nav>
     )

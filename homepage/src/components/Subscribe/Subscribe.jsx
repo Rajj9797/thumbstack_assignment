@@ -3,7 +3,7 @@ import "./Subscribe.css";
 
 const Subscribe = () => {
     return (
-        <div className="subscribe-main-div">
+        <div id="for-days" className="subscribe-main-div">
             <div className="supporter-div">
                 <p className="supporter-head">Become a supporter and help us on our Journey</p>
                 <button className="supporter-button">Read more about how to &rarr;</button>

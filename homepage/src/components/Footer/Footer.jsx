@@ -5,7 +5,7 @@ import europeanMap from "../../Assets/EuropeanMap.png";
 
 const Footer = () => {
     return (
-        <div className="footer-div">
+        <div id="contact-us" className="footer-div">
             <div className="links-div">
                 <p className="footer-text-title">APURA CLOUD</p>
                 <div className="features-link">
