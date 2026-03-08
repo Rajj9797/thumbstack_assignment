@@ -118,3 +118,26 @@
     
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .footer-div {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .links-div {
+        align-items: center;
+        text-align: center;
+    }
+
+    .features-link, .roadmap-link, .product-link, .policy-link {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .socialmedia-div {
+        margin-top: 20px;
+        align-items: center;
+    } 
+}
